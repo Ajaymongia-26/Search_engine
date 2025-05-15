@@ -1,0 +1,52 @@
+'''Project: AI-Powered E-commerce Platform
+
+Core Requirements
+1. Search Engine Design (Optimized for E-commerce)
+Build a smart search interface like Flipkart.
+Use LLM-based Query Understanding: extract category, user intent, attributes.
+Use semantic search with embeddings.
+Use RAG (Retrieval Augmented Generation) for fetching relevant product data.
+2. Category and Filter Design
+Auto-classify products into structured categories.
+Dynamic filters based on product attributes (price, brand, features).
+3. Product Data Collection
+Required fields:
+product_id, name, price, description, specifications, category, brand, image, rating, etc.
+4. Chatbot Integration
+LLM-powered conversational agent.
+Answer product-related queries.
+Guide users through purchase decisions.
+5. Recommendation System
+Recommend products based on:
+User history (visited/clicked items).
+Similar users’ behavior.
+Context-aware (e.g. trending, seasonal, based on cart).
+6. UI for Product Search and Recommendations
+Search bar with real-time suggestions.
+Filters and sort options.
+Personalized product carousels.
+7. Search Query Logging & Behavior Tracking
+Log every search query.
+Track:
+Visited products
+Session duration
+Add to cart events
+Click-through rate (CTR)
+Conversion events
+
+Project Flow
+Query Understanding (via LLM)
+Identify intent, product category, features.
+Convert free text to structured query (e.g., "red Nike shoes under 3000").
+RAG-based Product Retrieval
+Use embeddings (e.g., using FAISS + OpenAI/LLM) for semantic retrieval.
+Augment product details into response (description, specs).
+Enable filtering and sorting in the UI.
+Chatbot Assistance
+Help users refine search.
+Answer product/spec comparison questions.
+Integrate with user profile for personalized suggestions.
+User Data Tracking
+Collect logs into a database (clicks, views, purchases).
+Build user profiles.
+Use data for recommendation and analytics.'''

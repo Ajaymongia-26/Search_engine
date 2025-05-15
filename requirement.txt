@@ -1,0 +1,8 @@
+pandas
+numpy
+json5  
+requests
+streamlit
+faiss-cpu
+sentence-transformers
+redis
